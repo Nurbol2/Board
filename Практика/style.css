@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  text-color: black;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a:hover {
+  color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+.link1 {
+  color: black;
+  margin: 50px 10px 10px 10px;
+  padding-top: 30px;
+}
+
+.link2 {
+  color: black;
+  margin: 50px 10px 10px 10px;
+}
+
+.link3 {
+  color: black;
+  margin: 50px 10px 10px 10px;
+}
+
+.fullScreen {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fullScreenBody {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.fullScreenTitle {
+  font-size: 50px;
+  letter-spacing: 25px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+
+.fullScreenText {
+  font-size: 18px;
+  letter-spacing: 15px;
+  padding-bottom: 20px;
+}
+
+.fullScreenVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Контент {
+  position: relative;
+  z-index: 5;
+  background-color: white;
+  padding: 30px 200px 30px 200px;
+}
+
+.Первое {
+  background-color: white;
+}
+
+.Board1 {
+  text-align: center;
+}
+
+.Впечатления {
+  text-align: center;
+  font-style: italic
+}
+
+.ПервыйБлок {
+  text-align: center;
+}
+
+.Цель {
+  color: rgb(25, 66, 124);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+.Шамони {
+  font-style: italic;
+  color: rgb(33,33,33,1);
+  font-family: Merriweather, serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.6667;
+  margin-top: 12px;
+}
+
+.Вершины {
+  text-align: center;
+  font-family: 'Merriweather';
+  color: rgb(61, 28, 45);
+  font-size: 11pt;
+  font-weight: 400;
+  line-height: 1.6667;
+  margin-top: 14px;
+  font-size: 14pt;
+  margin-bottom: 14px;
+  padding-bottom: 30px;
+}
+
+.Четверка {
+  padding: 20px 10px 100px;
+  margin: 15px 10px 15px;
+  width: 100%;
+}
+
+.БлокСнаряжение:after {
+
+  display: flex;
+  clear: both;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.СнаряжениеТекст {
+  font-size: 14pt;
+}
+
+.БлокНеТоропитесь:after {
+  display: flex;
+  clear: both;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.НеТоропитесьТекст {
+  font-size: 14pt;
+}
+
+.БлокЗащита:after {
+  display: flex;
+  clear: both;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.ЗащитаТекст {
+  font-size: 14pt;
+}
+
+.БлокРазминка:after {
+  display: flex;
+  clear: both;
+  margin: 20px 20px 20px 20px;
+}
+
+.РазминкаТекст {
+  font-size: 14pt;
+}
+
+.wrapper{
+  display: flex;
+  padding : 10px 50px 10px 50px;
+}
+
+.wrapper2{
+  display: flex;
+  padding: 10px 50px 10px 50px;
+}
+
+.el{
+  display:flex;
+}
+
+.ФотоСнаряжение {
+  width: 200px;
+  height: 200px;
+  margin: 10px 20px 10px 1px;
+}
+
+.ФотоНеТоропитесь {
+  width: 200px;
+  height: 200px;
+  margin: 10px 20px 10px 130px;
+}
+
+.ФотоЗащита {
+  width: 330px;
+  height: 200px;
+  margin: 10px 20px 10px 1px;
+}
+
+.ФотоРазминка {
+  width: 200px;
+  height: 200px;
+  margin: 10px 20px 10px 25px;
+}
+
+.Vid {
+  float: left;
+  padding: 20px 200px 20px 200px;
+  vertical-align: baseline;
+}
+
+.VideoTitle {
+  color: #000000;
+  font-family: 'Arial';
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: normal;
+  vertical-align: baseline;
+  margin-left: 10px;
+  margin-bottom: 10;
+}
+
+.ВидеоТекст {
+  margin-left: 20px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  font-family: 'Arial';
+  font-size: 13pt;
+  text-align: center;
+}
+
+.Map {
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+}
+
+.MapText {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 14pt;
+  margin-bottom: 50px;
+}
+
+.Questions {
+  padding: 10px 10px 10px 10px;
+}
+
+.ВозниклиВопросы{
+  text-align: center;
+  style="font-family: 'PT Sans';
+  font-weight: 700;
+  box-sizing: border-box;
+  color: rgb(0, 63, 145);
+  font-size: 18pt;
+  padding: 20px 300px 20px 300px;
+}
+
+.Почта {
+  text-align: center;
+  color: rgba(33,33,33,1);
+  font-family: Merriweather, serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.6667;
+  margin-top: 12px;
+  padding: 20px 300px 20px 300px;
+}
+
+.FooterBoard {
+  color: #000000;
+  font-family: 'Arial';
+  vertical-align: baseline;
+  text-align: center;
+  background-color: white;
+}
+
+.титры {
+  color: #868686;
+  font-family: 'Arial';
+  font-size: 10pt;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: normal;
+  vertical-align: baseline;
+  text-align: center;
+  padding: 10px 300px 30px 300px;
+}
+
+.ЧЗВ {
+  color: rgb(127,17,70,1);
+  font-size: 14pt;
+  padding-bottom: 40px;
+}
+
+.СтраницаВопросы {
+  padding: 30px 200px 30px 200px;
+  font-family: 'Verdana';
+  font-size: 11pt;
+}
+
+.ОбьяснитеЦель {
+  color: rgb(25, 66, 124);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 20px;
+  padding: 20px 300px 20px 300px;
+}
+
+.ЗнакомствоСКомандой {
+  padding: 10px 300px 10px 300px;
+  font-size: 14pt;
+}
+
+.КраткийРассказ {
+  color: rgb(33, 33, 33);
+  font-family: Merriweather, serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.6667;
+  padding: 0 300px 0 300px;
+}
+
+.ОписаниеКоманды {
+  color: rgb(33, 33, 33);
+  font-family: Merriweather, serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.6667;
+  padding: 0 300px 0 300px;
+}
+
+.Komanda1 {
+  width: 900px;
+  height: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.vtipo {
+  padding-left: 600px;
+}
+
+.Komanda2 {
+  width: 900px;
+  height: 400px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.wrapper3 {
+  padding: 20px 200px 20px 300px;
+}
+
+.wrapper4 {
+  padding: 20px 200px 20px 300px;
+}
+
+.Mira {
+  padding:20px 40px 1px 40px;
+}
+
+.Dima {
+  padding: 1px 40px 1px 40px;
+}
+
+.Zura {
+  padding: 1px 40px 1px 40px;
+}
+
+.Rus {
+  padding: 20px 40px 1px 40px;
+}
+
+.Nura {
+  padding: 1px 40px 1px 55px;
+}
+
+.Isa {
+  padding: 1px 40px 1px 40px;
+}
+
+.Присоединяйтесь {
+  padding: 10px 100px 10px 500px;
+  font-size: 13pt;
+  background-color: rgb(185, 232, 235)
+}
+
+.JoinTitle {
+  padding-left: 50px;
+  color: rgb(33, 33, 33);
+  font-family: serif;
+  font-style: normal;
+}
+
+.JointText {
+  font-family: serif;
+  font-style: normal;
+}
+
+.JoinLi {
+  font-family: serif;
+  font-style: normal;
+}
+
+.Кнопка {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.knopka {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  border-radius: 8px;
+  background-color: rgb(18, 49, 111);
+  color: white;
+  height:47px;
+  width:269px;
+}
